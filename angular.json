@@ -45,9 +45,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              },
+              {
+                "input": "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css"
+              },
+              "src/styles.css",
+              {
+                "input": "./node_modules/ngx-toastr/toastr.css"
+              }              
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "input": "./Scripts/jquery-ui-1.12.1.min.js"
+              }
+            ]
           },
           "configurations": {
             "production": {
